@@ -1,0 +1,795 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter");
+body{
+    margin:0;
+    padding: 0;
+}
+.main-page{
+    background-color: #f1f1f1;
+    width:100%;
+    height:100%;
+    /* margin:auto; */
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.logo.text{
+    font-family: "Kanit";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin-left: 10px;
+}
+.menu{
+    display:flex;
+    flex-direction:row;
+    margin-left:73%;
+    margin-top:2%;
+    justify-content: space-around;
+    width:30%;
+    height:30%;
+}
+.get_started{
+    margin-right:7%;
+    margin-top:2%;
+    border-radius: 100px;
+    border:none;
+    background-color:rgba(8, 30, 52, 0.12);
+    width: 102px;
+    height: 38px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.nav{
+    border: transparent;
+}
+.description{
+    display:flex;
+    flex-direction:row;
+    margin-left: 5%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    width: 40%;
+    height: 20%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+} 
+.VisualContent{
+    display:flex;
+    margin-top: 7%;
+    margin-left: 9%;
+    width: 45%;
+    height: 15%;  
+}
+.Big_text{
+    font-size: 54px;
+    font-family: 'Kanit';
+    font-style: bold;
+    font-weight: 700;
+    line-height: 64px;
+}
+.small_text{
+    font-size: 16px;
+    margin-top: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+.how_it_works{
+    margin-top:4%; 
+    font-size: 14px;
+    background-color: #712FFF;
+    border-radius: 100px;
+    border:none;
+    width: 144px;
+    height: 50px;
+}
+
+.button_how_it_works{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+.second-page{
+    background-color: #e1dee7;
+    border-radius: 32px;
+    width: 100%;
+    height: 562px;
+}
+.menu-text{
+    display: flex;;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+}
+.frame {
+    display:flex;
+    justify-content: space-between;
+    margin-top:86px;
+    display: flex;
+    flex-direction: row;
+}
+.frame1{
+    margin-right: 80px;
+    margin-left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+.onedotpng{
+    width:35.13px;
+    height:64px;
+}
+.twodotpng{
+    width: 48.3px;
+    height: 64px;
+}
+.threedotpng{
+    width: 48.3px;
+    height: 64px;
+}
+.howItworks{
+    margin-top:12px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 56px;
+}
+.loremipsum{
+    display:flex;
+    justify-content: center;
+    margin-top: 103px;
+    padding-top: 103px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.maintext{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.subtext{
+    font-family: 'Inter' ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+.InputField{
+    margin-left: 5%;
+    width: 100%;
+    height: 422px;
+    width: 757px;
+}
+.Input_filed_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Lets_get_started{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+}
+.the_best_tool{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 495px;
+    height: 44px;
+}
+
+.search{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 12px;
+    color: #000000;
+    opacity: 0.2;
+    width: 495px;
+    height: 22px;
+}
+
+.findJob{
+    display: flex;
+    flex-direction: row;
+    width: 757px;
+    height: 50px;
+}
+.text_inside-find_job{
+    display: flex;
+    flex-direction: row;
+    width: 619px;
+    height: 50px;
+    background-color:#FFFF;
+    border: 1px solid #E1DEE7;
+    border-radius: 12px;
+    margin-top: 32px;
+}
+
+
+.find_job_button{
+    margin-left:32px;
+    margin-top: 30px;
+    background-color: #712FFF;
+    border:none;
+    width:106px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.CVsubmisiion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 548px;
+    margin-left:5%;
+}
+.visual_last{
+    width: 80%;
+    height: 88%;
+    margin-bottom: 64px;
+}
+.text_CV_sub{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 10%;
+    margin-right: 13%;
+}
+.upload{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
+    margin-left: 8px;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+.upload_CV{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 56px;
+}
+.cv_sub_button_arrow{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.description_CV{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer_last{
+    width: 100%;
+    height: 172px;
+    border-radius: 32px 32px 0px 0px;
+    background-color: white;
+}
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.final_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 7%;
+    padding-top: 32px;
+    width: 40%;
+    height: 70%;
+}
+.img_final_menu{
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+}
+.footer_long_text_div{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    width:90%;
+    margin-left:7%;
+}
+.footer_long_text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    opacity: 0.5;
+    padding-top:32px;
+}
+.twitter{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-left: 28px;
+    justify-content: center;
+}
+.instagram{
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+}
+
+.last_text{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:6%;
+    margin-top:2%;
+    color: #081E34;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+@media (max-width: 600px){
+    .body{
+        height:2876px;
+    }
+    .main-page{
+        background-color: #f1f1f1;
+        width:100%;
+        height:2876px;
+        margin:auto;
+    }
+    .first_page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header{
+        height:62px;
+        display:flex;
+        flex-direction:row;
+        /* margin-top: 20px; */
+        /* margin-left: 20%;
+        margin-right: 30%; */
+    }
+    .logo{
+        display:flex;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-left:15%;
+    }
+    .logo.text{
+        width: 86px;
+        height: 22px;
+        font-family: "Kanit";
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+    }
+    .get_started{
+        border-radius: 100px;
+        border:none;
+        background-color:rgba(8, 30, 52, 0.12);
+        width: 102px;
+        height: 38px;
+        margin-top: 4%;
+        margin-right: 20%;
+    }
+
+    .nav{
+        border: transparent;
+    }
+    .description{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        /* margin-left: 5%; */
+        height:618px;
+        margin:auto;
+    }
+    .VisualContent{
+        display:flex;
+        order:1;
+        justify-content: center;
+        margin:auto;
+        /* margin-top: 7%;
+        margin-left: 13%; */
+        width: 312px;
+        height: 210px;
+    }
+    .info{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        order:2;
+        margin:auto;
+        margin-top: 0.1%;
+        width: 312px;
+        height: 290px;
+    }
+    .text{
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+    } 
+    .Big_text{
+        margin:auto;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        width: 312px;
+        height: 114px;
+        display: flex;
+        text-align: center; 
+    }
+    .small_text{
+        
+        width: 312px;
+        height: 54px;
+
+        /* Body S 14 pt/Medium */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        /* or 129% */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #000000;
+    }
+    .how_it_works{
+        display: flex;
+        margin:auto;
+        justify-content: center;
+        width: 144px;
+        height: 50px;
+    }
+    .button_how_it_works{
+        margin:auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-page{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:686px;
+        background-color: #e1dee7;
+        border-radius: 32px;
+        width: 100%;
+    }
+    .sub_second_page{
+        margin-left: 15%;
+    }
+    .info2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:2px ;
+        width: 312px;
+        height: 84px;
+    }
+    .loremipsum{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 5px;
+    }
+    .howItworks{
+        margin-top: 2px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 56px;
+    }
+    .frame {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .frame1{
+        display:flex;
+        flex-direction: column;
+    }
+    .onedotpng{
+        margin-top:15px;
+        width:23.05px;
+        height:42px;
+    }
+    .twodotpng{
+        margin-top:25px;
+        width:31.7px;
+        height:42px;
+    }
+    .threedotpng{
+        margin-top: 25px;
+        width:31.87px;
+        height:42px;
+    }
+    .maintext{
+        margin-top:20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .subtext{
+        margin-top:0.5px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .InputField{
+       
+        /* align-items: center; */
+        margin:auto;
+        width: 100%;
+        height: 387px;
+        margin-left:19%;
+    }
+    .Input_filed_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 279px;
+        width: 312px;
+    }
+    .Lets_get_started{
+        margin-top: 54px;
+        display: flex;
+        justify-content: center;
+        height: 29px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    .the_best_tool{
+        margin-top: 5px;
+        text-align: center;
+        width: 312px;
+        height: 54px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .search{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .findJob{
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 312px;
+        height: 50px;
+    }
+    .text_inside-find_job{
+       
+        width: 312px;
+        height: 50px;
+        background-color:#FFFF;
+        border: 1px solid #E1DEE7;
+        border-radius: 12px;
+    }
+    .find_job_button{
+        margin-left:30%;
+        background-color: #712FFF;
+        border:none;
+        width:106px;
+        height: 50px;
+        border-radius: 100px;
+    }
+
+    .CVsubmisiion{
+        height:663px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 19%;
+
+    }
+    .visual_last{
+        display: flex;
+        justify-content: center;
+        margin-top:30px;
+        margin-bottom:0px;
+
+        width: 312px;
+        height: 210px;
+        border-radius: 24px;
+    }
+    .text_CV_sub{
+        display: flex;
+        width: 312px;
+        height: 197px;
+        margin-bottom:100px;
+    }
+    .upload_CV{
+        width: 174px;
+        height: 29px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .description_CV{
+        margin-top: 25px;
+        width: 312px;
+        height: 54px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .upload{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: white;
+        margin-left: 8px;
+        margin-top: 16px;
+        margin-right: 24px;
+    }
+    .cv_sub_button_arrow{
+        width: 18px;
+        height: 18px;
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        margin-left: 16px;
+    }
+    .footer_last{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 460px;
+        border-radius: 32px 32px 0px 0px;
+        background-color: white;
+    }
+    .footer_menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width:312px;
+        margin-left:10%;
+    }
+    .final_menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 15%;
+    }
+    .img_final_menu{
+        display:flex;
+        flex-direction: column;
+        justify-content:start;
+        /* width:25%; */
+    }
+    .footer_long_text_div{
+        display:flex;
+        justify-content: flex-start;
+        margin-top:40px;
+    }
+    .footer_long_text{
+        margin-top: 95px;
+        margin-left: 8%;
+        width:312px;
+        height: 72px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #081E34;
+        opacity: 0.5;
+    }
+    .twitter{
+        margin-left:5%;
+        margin-top: 10px;
+        width: 24px;
+        height: 24px;
+    }
+    .instagram{
+        margin-top: 15px;
+        margin-left:5%;
+        width: 24px;
+        height: 24px;
+    }
+    .last_text{
+        margin-left: 19%;
+        margin-top:255px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #081E34;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
